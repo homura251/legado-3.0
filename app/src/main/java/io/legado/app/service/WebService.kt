@@ -7,6 +7,7 @@ import android.net.wifi.WifiManager
 import android.os.Build
 import android.os.PowerManager
 import androidx.core.app.NotificationCompat
+import io.legado.app.BuildConfig
 import io.legado.app.R
 import io.legado.app.base.BaseService
 import io.legado.app.constant.AppConst
@@ -183,9 +184,9 @@ class WebService : BaseService() {
     }
 
     private fun getPort(): Int {
-        var port = getPrefInt(PreferKey.webPort, 1122)
+        var port = getPrefInt(PreferKey.webPort, BuildConfig.DEFAULT_WEB_PORT)
         if (port > 65530 || port < 1024) {
-            port = 1122
+            port = BuildConfig.DEFAULT_WEB_PORT
         }
         return port
     }

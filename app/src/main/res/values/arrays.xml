@@ -157,7 +157,8 @@
 		<item>@string/default_version</item>
 		<item>@string/official_version</item>
 		<item>@string/beta_release_version</item>
-		<item>@string/beta_releaseA_version</item>
+		<item>@string/dev_version</item>
+		<item>@string/nightly_version</item>
 	</string-array>
 
 	<string-array name="default_home_page_value">
@@ -171,7 +172,8 @@
 		<item>default_version</item>
 		<item>official_version</item>
 		<item>beta_release_version</item>
-		<item>beta_releaseA_version</item>
+		<item>dev_version</item>
+		<item>nightly_version</item>
 	</string-array>
 
 	<string-array name="tip_color">

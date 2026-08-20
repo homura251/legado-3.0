@@ -145,6 +145,110 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453392274790:android:c1481c1c3d3f51eff624a7",
+        "android_client_info": {
+          "package_name": "io.legado.app.official"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90mfNLhA7cAzzI9SonpSz5mrF5BnmyJA"
+        }
+      ]
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453392274790:android:c1481c1c3d3f51eff624a7",
+        "android_client_info": {
+          "package_name": "io.legado.app.beta"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90mfNLhA7cAzzI9SonpSz5mrF5BnmyJA"
+        }
+      ]
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453392274790:android:c1481c1c3d3f51eff624a7",
+        "android_client_info": {
+          "package_name": "io.legado.app.dev"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90mfNLhA7cAzzI9SonpSz5mrF5BnmyJA"
+        }
+      ]
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453392274790:android:c1481c1c3d3f51eff624a7",
+        "android_client_info": {
+          "package_name": "io.legado.app.nightly"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90mfNLhA7cAzzI9SonpSz5mrF5BnmyJA"
+        }
+      ]
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453392274790:android:c1481c1c3d3f51eff624a7",
+        "android_client_info": {
+          "package_name": "io.legado.app.official.debug"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90mfNLhA7cAzzI9SonpSz5mrF5BnmyJA"
+        }
+      ]
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453392274790:android:c1481c1c3d3f51eff624a7",
+        "android_client_info": {
+          "package_name": "io.legado.app.beta.debug"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90mfNLhA7cAzzI9SonpSz5mrF5BnmyJA"
+        }
+      ]
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453392274790:android:c1481c1c3d3f51eff624a7",
+        "android_client_info": {
+          "package_name": "io.legado.app.dev.debug"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90mfNLhA7cAzzI9SonpSz5mrF5BnmyJA"
+        }
+      ]
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453392274790:android:c1481c1c3d3f51eff624a7",
+        "android_client_info": {
+          "package_name": "io.legado.app.nightly.debug"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyD90mfNLhA7cAzzI9SonpSz5mrF5BnmyJA"
+        }
+      ]
     }
   ],
   "configuration_version": "1"

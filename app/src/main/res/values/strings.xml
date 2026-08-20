@@ -2,6 +2,10 @@
 <resources>
     <!--App-->
     <string name="app_name">Legado</string>
+    <string name="app_name_official">Legado Official</string>
+    <string name="app_name_beta">Legado Beta</string>
+    <string name="app_name_dev">Legado Dev</string>
+    <string name="app_name_nightly">Legado Nightly</string>
     <string name="app_name_a">Legado·A</string>
     <string name="receiving_shared_label">Legado·search</string>
     <string name="tip_perm_request_storage">Legado needs storage access to find and read books. please go "App Settings" to allow "Storage permission".</string>
@@ -1181,6 +1185,8 @@
     <string name="default_version">当前</string>
     <string name="official_version">正式版</string>
     <string name="beta_release_version">测试版</string>
+    <string name="dev_version">开发版</string>
+    <string name="nightly_version">夜间版</string>
     <string name="beta_releaseA_version">共存版</string>
     <string name="stream_read_aloud_audio">流式播放音频</string>
     <string name="stream_read_aloud_audio_summary">即边下边播，网络不好时播放会断断续续，仅TTS源有效</string>

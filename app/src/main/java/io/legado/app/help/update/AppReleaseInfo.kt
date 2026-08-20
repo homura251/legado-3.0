@@ -13,17 +13,22 @@ data class AppReleaseInfo(
     val downloadUrl: String,
     val assetUrl: String
 ) {
-    val versionName: String = name.split("_").getOrNull(2)?.dropLast(2) ?: ""
+    val versionName: String = name
+        .removeSuffix(".apk")
+        .split("_")
+        .getOrNull(2)
+        ?: ""
 }
 
 enum class AppVariant {
     OFFICIAL,
-    BETA_RELEASEA,
-    BETA_RELEASE,
+    BETA,
+    DEV,
+    NIGHTLY,
     UNKNOWN;
 
     fun isBeta(): Boolean {
-        return this == BETA_RELEASE || this == BETA_RELEASEA
+        return this == BETA || this == DEV || this == NIGHTLY
     }
 
 }
@@ -66,8 +71,11 @@ data class Asset(
         val timestamp: Long = instant.toEpochMilli()
 
         val appVariant = when {
-            preRelease && name.contains("releaseA") -> AppVariant.BETA_RELEASEA
-            preRelease && name.contains("release") -> AppVariant.BETA_RELEASE
+            name.contains("_beta_") -> AppVariant.BETA
+            name.contains("_dev_") -> AppVariant.DEV
+            name.contains("_nightly_") -> AppVariant.NIGHTLY
+            name.contains("releaseA") -> AppVariant.BETA
+            preRelease && name.contains("release") -> AppVariant.BETA
             else -> AppVariant.OFFICIAL
         }
 

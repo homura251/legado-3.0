@@ -12,6 +12,8 @@ node_modules/
 /app/app
 /app/google
 /app/gradle.properties
+*.p12
+*.keystore
 package-lock.json
 .idea/
 # Kotlin 2.0
